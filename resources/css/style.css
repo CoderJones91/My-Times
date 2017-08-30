@@ -10,6 +10,8 @@ header{
     background-color: white;
     z-index: 1;
     height: 80px;
+    top: 0;
+    left: 0;
 }
 .logo{
     display: flex;
@@ -25,6 +27,8 @@ header{
 
 nav{
     padding-right: 60px;
+
+    
 }
 nav span{
     display: inline-block;
@@ -32,4 +36,71 @@ nav span{
 }
 .logo span{
     color: mediumaquamarine;
+}
+.content{
+    display: flex;
+    padding-top: 120px;
+}
+.column{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+.column.large{
+    width: 630px;
+    align-items: right;
+}
+.column.medium{
+    width: 300px;
+}
+.column.small{
+    width: 240px;
+}
+div{
+    display: block;
+}
+.narrative{
+    border: 1px solid black;
+}
+.text-content, .image-content, .logo{
+    border: 1px solid black;
+}
+.column{
+    margin: 0 auto;
+    
+}
+.lead-story .image-content{
+    background-image: url(/Users/anthony/GitHub/CodecademyProjects/MyTimes/resources/images/img-story-main.png);
+    width: 630px;
+    font-size: 40px;
+}
+.fall-cancelled.image-content{
+    background-image: url(/Users/anthony/GitHub/CodecademyProjects/MyTimes/resources/images/earth.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+}
+.pop-culture.image-content{
+    background-image: url(/Users/anthony/GitHub/CodecademyProjects/MyTimes/resources/images/hippie.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.cat-ceo.image-content{
+    background-image: url(/Users/anthony/GitHub/CodecademyProjects/MyTimes/resources/images/cat.png);
+    text-align: center;
+    
+}
+.image-content{
+    height: 300px;
+    font-family: Georgia, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+}
+.story{
+    font-family: Georgia, sans-serif;
+    font-size: 17px;
+    color: black;
 }
