@@ -86,6 +86,7 @@ div{
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    text-align: center;
 }
 .cat-ceo.image-content{
     background-image: url(/Users/anthony/GitHub/CodecademyProjects/MyTimes/resources/images/cat.png);
@@ -98,9 +99,32 @@ div{
     font-weight: bold;
     font-size: 30px;
     color: white;
+    display: flex;
 }
 .story{
     font-family: Georgia, sans-serif;
     font-size: 17px;
     color: black;
+    display: flex;
+    flex-direction: column;
+}
+.stories{
+    display: flex;
+    justify-content: space-between;
+}
+.bite{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid black;
+    margin: 0;
+    background-color: WhiteSmoke;
+    font-family: Verdana;
+    font-size: 12px;
+    color: DimGray;
+    padding: 10px 5px;
+}
+h3{
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
 }
